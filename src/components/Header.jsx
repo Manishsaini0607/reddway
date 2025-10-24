@@ -11,7 +11,7 @@ export default function Header() {
 
     return (
         <>
-            <header className=" py-4 shadow-sm bg-white sticky top-0 z-50 h-16">
+            <header className=" py-4 shadow-md bg-white sticky top-0 z-50 h-16">
               <div className='max-w-[1700px] mx-auto w-full flex    items-center  justify-between px-4 md:px-10'>
                 <IoMenuOutline
                     onClick={() => setMenu(true)}
@@ -22,13 +22,13 @@ export default function Header() {
                
 
                 <nav className="flex items-center space-x-3 md:space-x-6">
-                    <Link href="/" className="text-black hover:opacity-75 hover:text-green-500 transition-colors font-medium hidden sm:inline">
+                    <Link href="/" className="text-black hover:opacity-75 hover:text-green-500 transition-colors font-medium hidden md:inline">
                         Pricing
                     </Link>
                     <Link href="/" className="text-black hover:opacity-75 hover:text-green-500 transition-colors font-medium">
                         Sign in
                     </Link>
-                    <button className="bg-black hidden cursor-pointer text-white px-4 py-2 md:px-4 rounded-xl hover:bg-gray-800 transition-colors sm:flex items-center justify-center space-x-1 text-sm md:text-base">
+                    <button className="bg-black hidden cursor-pointer text-white px-4 py-2 md:px-4 rounded-xl hover:bg-gray-800 transition-colors md:flex items-center justify-center space-x-1 text-md md:text-base">
                         <span className="font-medium">Create a free store</span>
                         <FaArrowRightLong />
                     </button>
