@@ -7,7 +7,7 @@ export default function HeroSection() {
     return (
         <main className="flex flex-col md:flex-row items-center min-h-[calc(100vh-64px)] h-full max-w-[1700px] mx-auto w-full px-12 mt-12 md:mt-0 md:py-4 ">
             {/* Left Section  */}
-            <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}  className=" w-full md:w-1/2 mb-12 lg:px-8  md:pl-6 md:mb-0">
+            <motion.div initial={{ opacity: 0, y: 25 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}  className=" w-full md:w-1/2 mb-12 lg:px-8  md:pl-6 md:mb-0">
                 <div className="mb-1">
                     <span className="text-sm ">Reddway website builder</span>
                 </div>
@@ -26,7 +26,7 @@ export default function HeroSection() {
             </motion.div>
 
             {/* Right Section */}
-            <motion.div  initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}   className=" h-max  w-full md:w-1/2 ">
+            <motion.div  initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}   className=" h-max  w-full md:w-1/2 ">
                 <Image src="/hero-section-img.png" alt="Mobile View" width={250} height={500} className=" w-full h-auto object-contain" />
             </motion.div>
         </main>
