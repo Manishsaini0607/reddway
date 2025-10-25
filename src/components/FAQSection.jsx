@@ -107,7 +107,7 @@ export default function FAQSection() {
                             
                             {openIndex === index && (
                                 <div className="px-5 pb-5 pl-14">
-                                    <p className="text-base text-gray-700 leading-relaxed">
+                                    <p className="text-xs md:text-sm text-gray-700 leading-relaxed">
                                         {faq.answer}
                                     </p>
                                 </div>
