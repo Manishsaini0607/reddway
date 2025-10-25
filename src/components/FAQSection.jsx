@@ -4,7 +4,7 @@ import { FaArrowRight } from 'react-icons/fa'
 import { IoAdd, IoRemove } from 'react-icons/io5'
 
 export default function FAQSection() {
-    const [openIndex, setOpenIndex] = useState(0)
+    const [openIndex, setOpenIndex] = useState(null)
 
     const faqs = [
         {
