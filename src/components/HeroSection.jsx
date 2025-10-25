@@ -26,7 +26,7 @@ export default function HeroSection() {
             </motion.div>
 
             {/* Right Section */}
-            <motion.div  initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}   className="  w-full md:w-1/2 ">
+            <motion.div  initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}   className=" h-max  w-full md:w-1/2 ">
                 <Image src="/hero-section-img.png" alt="Mobile View" width={250} height={500} className=" w-full h-auto object-contain" />
             </motion.div>
         </main>
